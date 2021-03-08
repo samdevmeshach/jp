@@ -1,0 +1,171 @@
+p,h3{
+    text-align: center;
+    margin-top: 10px;
+}
+.image{
+    position: relative;
+    float: left;
+}
+.imgcontent{
+    margin-top: 10%;
+}
+.arrow{
+    padding:0px 2px;
+    background-color:white;
+    color:black;
+    margin-right:10px;
+    border-radius:2px;
+}
+.head1{
+    text-align: center;
+}
+.head2{
+    text-align: center;
+    font-size: 30px;
+}
+.container1{
+    background-color: rgba(103, 91, 214, 0.5);
+}
+.para{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    font-size: 100px;
+    color: rgb(153, 130, 238);
+}
+.author{
+    color:rgb(117, 83, 240) ;
+    margin-bottom: 40px;
+}
+th,td{
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.432);
+}
+.pad{
+    margin-bottom: 30px;
+}
+.box{
+    position: absolute;
+    width: 400px;
+    top: 50%;
+    left: 5%;
+}
+.content{
+    margin-top: 10%;
+}
+.box1{
+    padding: 5%;
+}
+@media only screen and (max-width: 500px) {
+    .box {
+        width: 400px;
+        height: auto;
+        margin-top: 5%;
+    }
+    .box1{
+        padding: 5%;
+    }
+  }
+  a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
+.bg{
+    background-color:#709fb0;
+}
+.en{
+    border:1px solid white;
+    padding:0px 8px;
+}
+.nav{
+    margin-top: 10px;
+}
+.arrow{
+    padding:0px 2px;
+    background-color:white;
+    color:black;
+    margin-right:10px;
+    border-radius:2px;
+}
+.btn{
+    background-color: blue;
+}
+.logo{
+    margin-right:20px;
+    background-color:blue;
+}
+@media only screen and (max-width: 600px) {
+    .nav {
+        display: none;
+        font-size: 10px;
+    }
+  }
+  .heading{
+    background-color:rgba(187, 165, 40, 0.479);
+}
+h6{
+    color: rgba(92, 81, 18, 0.479);
+}
+h3{
+    text-align: left;
+}
+.row{
+    margin:10%;
+    background-color:rgba(233, 232, 229, 0.308) ;
+}
+.col{
+    float: left;
+    width: 40%;
+    padding: 50px;
+    border-right: 0.1px solid rgba(243, 239, 239, 0.774);
+}
+.container{
+    padding:10%
+}
+.boxcontent{
+    margin-top: 20%;
+    flex-wrap: wrap;
+}
+  @media only screen and (max-width: 800px) {
+    .col {
+        width: 40%;
+        padding: 50px 80px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .col {
+        width: 30%;
+        padding: 50px 100px;
+    }
+  }
+  .imgcontainer{
+      padding: 0%;
+      background-color: rgba(10, 10, 235, 0.623);
+      color: white;
+  }
+  .hotelcontent{
+      margin-bottom: 30px;
+  }
+  .btn{
+      color: rgba(83, 68, 221, 0.623);
+      float: right;
+      border: 1px solid rgba(83, 68, 221, 0.623);
+  }
+  .btn1{
+    color: rgba(83, 68, 221, 0.623);
+    background-color: transparent;
+    float: right;
+    border: 1px solid rgba(83, 68, 221, 0.623);
+}
+  .c1{
+      float: left;
+      width: 33.33%;
+  }
+  .r1{
+      margin-bottom: 10%;
+      margin-top: -30%;
+  }
