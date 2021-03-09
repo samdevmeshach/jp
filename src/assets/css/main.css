@@ -158,14 +158,127 @@ h3{
   .btn1{
     color: rgba(83, 68, 221, 0.623);
     background-color: transparent;
-    float: right;
+    margin-left: 40%;
+    margin-top: 10%;
     border: 1px solid rgba(83, 68, 221, 0.623);
 }
   .c1{
       float: left;
-      width: 33.33%;
+      width: 30%;
   }
   .r1{
       margin-bottom: 10%;
-      margin-top: -30%;
+      margin-top: -10%;
+      width: 90%;
+      margin-left: 10%;
   }
+  .container2{
+      display: flex;
+      flex-wrap: wrap;
+}
+@media only screen and (max-width: 600px) {
+    .container2{
+        flex-direction: column;
+    }
+    .c1{
+        margin-top: 10px;
+    }
+    .c1 img{
+        width: 400px;
+        height: 300px;
+    }
+  }
+.imgtxt{
+    color:rgba(83, 68, 221, 0.623) ;
+    font-weight: bold;
+}
+.imgpara{
+    color: white;
+}
+li{
+    border-left: 1px solid white;
+    border-left-style: dashed;
+    margin: 10px;
+}
+li span{
+    margin-left: 5px;
+}
+.teambtn{
+    position: relative;
+    margin-left: 50%;
+    padding: 5px 30px;
+    background-color: transparent;
+    border: 1px solid blue;
+    margin-bottom: 10%;
+    color: blue;
+    border-radius: 5px;
+}
+.imgcontainer1{
+    padding: 0%;
+    background-color: rgba(122, 110, 42, 0.76);
+}
+.contacthead{
+    color: rgba(73, 64, 11, 0.815);
+    font-weight: bold;
+    text-align: center;
+}
+.contacthead h3{
+    text-align: center;
+    color: white;
+}
+.contacthead p{
+    color: white;
+    font-weight: 100;
+}
+.contacthead button{
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid rgba(105, 93, 24, 0.726);
+    font-weight: 100;
+    margin-bottom: 10%;
+}
+.logo1{
+    float: left;
+}
+.logohead{
+    position: absolute;
+    left: 17%;
+}
+.footercontent{
+    margin-top: 15%;
+    text-align: left;
+}
+.c1 h4{
+    text-align: center;
+    margin-bottom: -8%;
+}
+.footer{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.imgcontent a{
+    padding: 7px 20px;
+    background-color: blue;
+    border-radius: 5px;
+}
+.imgcontent{
+    text-align: center;
+}
+.c2{
+    width: 50%;
+    float: left;
+}
+.c2 a{
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 0px 3px;
+    background-color: transparent;
+}
+.r1 li{
+    list-style-type: none;
+    color: white;
+    text-align: left;
+}
+.c2 div{
+    color: white;
+}

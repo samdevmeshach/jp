@@ -13,15 +13,21 @@ export default function Hotel() {
                         <h2>Aenean pulvinar lectus ut nibh</h2>
                     </div>
                 </div>
-                <div className="row">
-                    <div className="col">
-                        <img src={chair} width="250px" height="200px" alt="" />
+                <div className="r1 w3-container container2">
+                    <div className="c1">
+                        <img src={chair} width="270px" height="200px" alt="" />
+                        <div className="imgtxt">BERLIN, GERMANY</div>
+                        <div className="imgpara">Triton to sell DSI Underground to Sanddvik</div>
                     </div>
-                    <div className="col">
-                        <img src={hotel} width="250px" height="200px" alt=""/>
+                    <div className="c1">
+                        <img src={hotel} width="270px" height="200px" alt=""/>
+                        <div className="imgtxt">SAO PAUL, BRAZIL</div>
+                        <div className="imgpara">Triton to sell DSI Underground to Sanddvik</div>
                     </div>
-                    <div className="col">
-                        <img src={lib} width="250px" height="200px" alt=""/>
+                    <div className="c1">
+                        <img src={lib} width="270px" height="200px" alt=""/>
+                        <div className="imgtxt">LOS ANGELES CA, USA</div>
+                        <div className="imgpara">Triton to sell DSI Underground to Sanddvik</div>
                     </div>
                 </div>
             </div>

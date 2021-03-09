@@ -29,9 +29,9 @@ const Content = () => {
                        Um die Wirtschaftlichkeit von Hotels
                    </h4>
                    <p>
-                   A paragraph is a self-contained unit of discourse in<br/> writing dealing with a particular point or idea.<br/> A paragraph consists of one or more sentences.
+                    A paragraph is a self-contained unit of discourse in<br/> writing dealing with a particular point or idea.<br/> A paragraph consists of one or more sentences.
                    </p>
-                   <a href="#contact" className="w3-bar-item btn w3-text-light-grey"><span className="arrow"><BsArrowRightShort /></span>Members Login</a>
+                   <a href="#contact" className="w3-bar-item w3-text-light-grey"><span className="arrow"><BsArrowRightShort /></span>Members Login</a>
                 </div>
             </div>
         </>
