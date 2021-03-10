@@ -148,7 +148,7 @@ h3{
       color: white;
   }
   .hotelcontent{
-      margin-bottom: 30px;
+      margin-bottom: 10%;
   }
   .btn{
       color: rgba(83, 68, 221, 0.623);
@@ -282,3 +282,40 @@ li span{
 .c2 div{
     color: white;
 }
+.cont{
+    margin-top: 10%;
+}
+.c3{
+    float: left;
+    width: 50%;
+}
+.hotel{
+    color: rgba(64, 64, 216, 0.719);
+    letter-spacing: 3px;
+}
+.left{
+    margin-left: 20%;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.left p{
+    text-align: left;
+    margin-bottom: 30px;
+}
+.left h5{
+    margin-top: 20px;
+}
+.c3 img{
+    margin: 5px;
+}
+.hideimg{
+    display: none;
+}
+@media only screen and (max-width: 800px) {
+    .showimg{
+        display: none;
+    }
+    .hideimg{
+        display: block;
+    }
+  }
